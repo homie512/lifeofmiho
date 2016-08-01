@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>mihomiho.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>9.2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_firedept">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>9.2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_firedept">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffcced</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_firedept">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffcced</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>mihomiho</name>
+		<open>1</open>
+		<Placemark>
+			<name>原口未帆の軌跡</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					136.5192111641009,34.86833124307519,0 136.5355891789335,34.86280011969829,0 136.5751912586134,34.8595943058233,0 136.5814381513294,34.84848256164509,0 136.5777030729452,34.85681375173221,0 130.8299176206669,32.86449780860066,0 130.8250528974127,32.86021930312401,0 130.7945295399522,32.86640569081219,0 130.7929044584601,32.86562949904526,0 280.178019331215,34.16363222157131,0 280.2231317204786,34.17936527350419,0 278.9731947517437,33.99631199559295,0 280.1486397847336,34.16939031759996,0 280.1516178473244,34.16967990011509,0 130.7995827581057,32.859446371231,0 130.7939993606295,32.86597395238881,0 130.7759730185789,32.86050962904645,0 130.7667279479087,32.78215060273178,0 130.6912086928563,32.79121714584878,0 139.3858290705046,35.62999234169588,0 139.3778041717565,35.6177361323352,0 139.3753380149921,35.65940264146121,0 139.3673829895128,35.66213612423161,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>23. 大学</name>
+			<description><![CDATA[<img src="http://minimini.jp/bookimg/school/100000049010_d.jpg"/><br>
+現在通っている、日野キャンパス。建物や設備がとても綺麗。でも南大沢の方が個人的に好き。]]></description>
+			<Camera>
+				<longitude>139.3665498891681</longitude>
+				<latitude>35.65916900120041</latitude>
+				<altitude>219.2711439885713</altitude>
+				<heading>15.34785893111454</heading>
+				<tilt>43.22286066270367</tilt>
+				<roll>2.15611308621664</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3675760551302,35.66120021783406,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21. 大学</name>
+			<description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Tokyo_Metropolitan_University_02.jpg"/><br>
+原口未帆が入学した念願の大学。分子応用化学科に入学するつもりがインダストリアルアートコースに入学した。1,2年生の間はこの南大沢キャンパスで過ごす。]]></description>
+			<LookAt>
+				<longitude>139.378027761241</longitude>
+				<latitude>35.61608916034091</latitude>
+				<altitude>0</altitude>
+				<heading>20.41276059070004</heading>
+				<tilt>59.33692444200504</tilt>
+				<range>538.9018593018686</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3778895804018,35.61676065260595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1. 生まれた場所</name>
+			<description><![CDATA[<img src="http://nttbj.itp.ne.jp/0593705151/h3,7.jpg"/><br>
+1994年5月12日木曜日の8:30に、原口未帆はここ三重県鈴鹿市の鈴木レディースクリニックにて原口家の長女として誕生します。]]></description>
+			<LookAt>
+				<longitude>136.5190258634299</longitude>
+				<latitude>34.86739099852046</latitude>
+				<altitude>7.049052439521536</altitude>
+				<heading>-4.166182162424742e-05</heading>
+				<tilt>0</tilt>
+				<range>230.7029003053829</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.5190856306311,34.86739467623535,41.80869447273592</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2. おうちpart.1</name>
+			<description><![CDATA[<img src="https://www.nissho-apn.co.jp/photo/Jpeg3/E4300084.jpg"/><br>
+原口未帆が、産婦人科を退院してから1歳まで住んでいた家。記憶無し。]]></description>
+			<LookAt>
+				<longitude>136.5358321551302</longitude>
+				<latitude>34.8620795358592</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001934318634117484</heading>
+				<tilt>25.7380447667587</tilt>
+				<range>198.2283543261487</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.5354159122016,34.86214900132007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3. おうちpart.2</name>
+			<description><![CDATA[<img src="http://www.sansho-re.com/upload_img/gpgpgp_2_20151208142327.JPG"/><br>
+原口未帆、1歳から7歳までここの1階の部屋で暮らす。毎日のように2階の子と遊んでいた。近くに秘密基地も作った。今もあるかは不明。]]></description>
+			<LookAt>
+				<longitude>136.5749153056238</longitude>
+				<latitude>34.85854028859627</latitude>
+				<altitude>0</altitude>
+				<heading>1.056427601738031e-05</heading>
+				<tilt>25.64663560623782</tilt>
+				<range>243.1515962006541</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.5749153056238,34.85854028859627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4. 幼稚園</name>
+			<description><![CDATA[<img src="http://www.pacifichome.jp/photo/land/25/ld258_9roundz.jpg"/><br>
+原口未帆が2年間通った、三重県鈴鹿市にある旭が丘幼稚園。夏のプールは、幼稚園に隣接している旭が丘小学校のプールを使用していたので、深くてなかなかの試練だった。]]></description>
+			<LookAt>
+				<longitude>136.5810873998971</longitude>
+				<latitude>34.8477437999855</latitude>
+				<altitude>13.2448365941778</altitude>
+				<heading>2.577775958232551e-10</heading>
+				<tilt>0</tilt>
+				<range>986.7551651476881</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.5810873998971,34.8477437999855,26.57231951776431</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5. 小学校part.1</name>
+			<description><![CDATA[<img src="http://pic1.homemate.co.jp/ice/image/6422/4/00250/00160/SM1384759034624.jpg"/><br>
+原口未帆が、入学した小学校。1年生の夏休み前まで通った。1年C組だった。隣の駄菓子屋さんに通い詰めた。]]></description>
+			<LookAt>
+				<longitude>136.5768234999252</longitude>
+				<latitude>34.85570319999999</latitude>
+				<altitude>13.30976716592603</altitude>
+				<heading>2.449475562936994e-09</heading>
+				<tilt>0</tilt>
+				<range>986.6902337313819</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.5768234999252,34.85570319999999,29.13538905955007</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6. おうちpart.3</name>
+			<description>7歳から半年だけ住んだ家。初めての一軒家。家の中の記憶は全くなく、周りの公園などは覚えている。</description>
+			<LookAt>
+				<longitude>130.8295992190367</longitude>
+				<latitude>32.86392656712754</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001218618531142534</heading>
+				<tilt>48.80326831080316</tilt>
+				<range>222.2595574723906</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.8297412292025,32.86363535648582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7. 小学校part.2</name>
+			<description><![CDATA[<img src="http://es.higo.ed.jp/kikuyoce/?action=common_download_main&upload_id=81"/><br>
+原口未帆が、夏休み以降の1年生を過ごした小学校。通ったのは半年間のみ。1年3組32番。]]></description>
+			<LookAt>
+				<longitude>130.8251487917625</longitude>
+				<latitude>32.85943474952155</latitude>
+				<altitude>10.01639143283556</altitude>
+				<heading>-0.0006715829104565397</heading>
+				<tilt>0.06833241029989606</tilt>
+				<range>994.3728867310909</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.8251487917625,32.85943474952155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9. 小学校part.3</name>
+			<description><![CDATA[<img src="http://www.kenchikukyoukai.com/IMG/GALLERY/USER_2014/masunaga/pablic/pablic.jpg"/><br>
+原口未帆が、2年生から4年生の途中まで通った小学校。男子サッカー部にお願いして入部させてもらい、部活も休み時間もずっとサッカーをしていた。]]></description>
+			<LookAt>
+				<longitude>130.7929477504072</longitude>
+				<latitude>32.86550535295076</latitude>
+				<altitude>8.572477940664374</altitude>
+				<heading>-5.138324801754377e-05</heading>
+				<tilt>24.68578176371447</tilt>
+				<range>576.3082267976664</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.7929477504072,32.86550535295076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8. おうちpart.4</name>
+			<description>8歳から10歳まで住んだ家。小学校が隣だったため、忘れ物をしてもすぐ帰ることができると油断して、よく忘れ物をしていた。今も実家はここである。</description>
+			<LookAt>
+				<longitude>130.7929477504072</longitude>
+				<latitude>32.86550535295076</latitude>
+				<altitude>8.572477940664374</altitude>
+				<heading>-5.138324801754377e-05</heading>
+				<tilt>24.68578176371447</tilt>
+				<range>576.3082267976664</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.7943991153866,32.86614498918457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10. おうちpart5</name>
+			<description><![CDATA[<img src="http://photos3.zillowstatic.com/p_h/ISgp4gg60vl9k3.jpg"/><br>
+人生で5つ目の家。今まで住んできた中で一番大きな家だった。庭がとにかく広く、大きなトランポリンを設置していたので、よく飛んでいた。この頃に戻りたい。]]></description>
+			<LookAt>
+				<longitude>-79.82483782956956</longitude>
+				<latitude>34.16227900340562</latitude>
+				<altitude>0</altitude>
+				<heading>8.589574307277743e-05</heading>
+				<tilt>28.37497508051452</tilt>
+				<range>139.8065757642859</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.82502165072211,34.16213698464185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11. 小学校part4</name>
+			<description><![CDATA[<img src="https://www.fsd1.org/PublishingImages/schoolpics/briggs1.jpg"/><br>
+原口未帆が4年生から卒業まで通った小学校。修学旅行は、バスでワシントンD.C.とニューヨークに行った。卒業式は泣きながらみんなで "I Believe I Can Fly" という歌を歌った。]]></description>
+			<LookAt>
+				<longitude>-79.78046800032335</longitude>
+				<latitude>34.17669800014678</latitude>
+				<altitude>0</altitude>
+				<heading>-1.816661271571628e-10</heading>
+				<tilt>0</tilt>
+				<range>999.4532633451282</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.78046800032335,34.17669800014678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12. 日本語補習学校</name>
+			<description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Denmark_and_Pratt_Hall_at_Anderson_University,_South_Carolina.JPG"/><br>
+アメリカに住んでいた5年間、現地の学校に加えて毎週土曜日だけ通っていた日本語補習学校。日本語を忘れないための学校だったので、授業はとてもゆるく、日本に住んでいる人が使っている教科書をみんなで読んだり、休み時間はケイドロなどの日本の遊びをしたりして楽しかったのを覚えている。]]></description>
+			<LookAt>
+				<longitude>-81.02724007734692</longitude>
+				<latitude>33.9960416608795</latitude>
+				<altitude>0</altitude>
+				<heading>6.232260335149457e-05</heading>
+				<tilt>47.73566007060053</tilt>
+				<range>291.1595261576136</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-81.02714814135754,33.99603679339869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13. 中学校part1</name>
+			<description><![CDATA[<img src="https://i.ytimg.com/vi/bIzsakpOWKc/hqdefault.jpg"/><br>
+原口未帆が入学した、サウスカロライナ州のフローレンスにある、Henry L. Sneed Middle School。中学校の記憶の大部分はここ。小学校から一緒だった子もたくさんいたが、ここに入学して、のちの大親友と出会う。卒業したかったし、大学もアメリカで通いたかった。]]></description>
+			<LookAt>
+				<longitude>-79.85158498692525</longitude>
+				<latitude>34.16922728764089</latitude>
+				<altitude>0</altitude>
+				<heading>-3.524221566182353e-10</heading>
+				<tilt>0</tilt>
+				<range>1001.618201906358</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.85158498692525,34.16922728764089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14. おうちpart6</name>
+			<description><![CDATA[<img src="http://photos1.zillowstatic.com/p_h/IS-1b28ws2xe6wrh.jpg"/><br>
+原口未帆が日本に帰国する直前に住んだ家。通っていた中学校が真横にあったのだが、森を挟んでいたので、登校は毎回森を潜り抜けていた。小さな家だったが、帰国前日は親友の二人が泊まりに来てくれた。転校日（帰国日）は、声を上げて泣きながら森の中を歩いた。今まで生きてきた中で一番泣いた。]]></description>
+			<LookAt>
+				<longitude>-79.84953282208718</longitude>
+				<latitude>34.16929105655747</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005175339085392979</heading>
+				<tilt>51.19437819422259</tilt>
+				<range>352.6922763274505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.84859875007413,34.16954403130531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15. おうちpart7</name>
+			<description><![CDATA[<img src="http://e-kumamoto.info/db/img/907.jpg"/><br
+>日本に帰国してから数ヶ月はホテルに住んでいた。ホテルから新しい日本の中学校に通い始めた。ホテルは、1,2泊の利用しか今までなかったので、ホテルに「住む」という行為はなかなか不思議なものだった。朝食付きのホテルだったので、ここに住んでいた期間は毎日の朝ごはんがビュッフェだった。妹はイクラが大好きだったが、このホテルに住んでいた数ヶ月間、毎朝ビュッフェにあったイクラを食べていたせいで今では少しイクラが好きでは亡くなったそう。人間飽きが来るから何事も程々がいいのだと悟った。]]></description>
+			<LookAt>
+				<longitude>130.7996925000385</longitude>
+				<latitude>32.85917069976955</latitude>
+				<altitude>27.27394867097648</altitude>
+				<heading>2.089306370253384e-11</heading>
+				<tilt>0</tilt>
+				<range>972.726054212611</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.7996925000385,32.85917069976955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16. おうちpart8</name>
+			<description>庭もあって素敵なおうち。庭ではよく家族でBBQなどしていた。今では、妹は宮崎県、父はパキスタンに住んでいるので、母とペットの猫のみこの家に住んでいる。広くて寂しいだろうと思う。</description>
+			<LookAt>
+				<longitude>130.7951335467985</longitude>
+				<latitude>32.8662258407482</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002916189863971799</heading>
+				<tilt>30.13681495546651</tilt>
+				<range>782.1219072784511</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.7940280457307,32.86582817085457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17. 中学校part2</name>
+			<description><![CDATA[<img src="http://facility.homemate-navi.com/pubuser1/pubuser_facility_img/7/1/7/00000000000000517717/0000002648/00000000000000517717_0000002648_3.jpg"/><br>
+原口未帆が日本で通った中学校。少ししか通っていないので記憶があまりない。でもいまだに連絡を取り続けている友人も何人かいる。ずっと海外にいたため高校入試は、「帰国子女枠」というもので入学することが本来はできたが、それで入学することが自分の中で負けた気がしてとても嫌で、日本に住んでいた人たちが中学校で今まで勉強したことを習っていないなりに一人で勉強したので、かなりずっと勉強していたのだと思う。もっと遊んでもよかったかもしれない。]]></description>
+			<LookAt>
+				<longitude>130.7764724518133</longitude>
+				<latitude>32.85940795292168</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01310294945798928</heading>
+				<tilt>27.04029637133925</tilt>
+				<range>268.0119287668947</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.775987297236,32.86045074819526,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18. 高校</name>
+			<description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kumamoto_Prefectural_Daini_High_School.JPG/300px-Kumamoto_Prefectural_Daini_High_School.JPG"/><br>
+原口未帆が唯一入学して転校せずに卒業した学校。この熊本県立第二高等学校は、先日の熊本地震でかなり倒壊し、今通っている子達は外に建てられたテントで勉強しているらしい。思い出の校舎がボロボロになった事に最近までは悲しんでいたが、国公立大学の合格者数が全国1位である事を誇りにしているくらい生徒全員が進学する学校なので、テントでの授業や、倒壊して帰る家も無い子が全国の今回の地震で何もなかった人たちと試験で戦うのかと思ったらとてもかわいそうだし、思い出の校舎が壊れたくらいで悲しんではダメだなと思った。]]></description>
+			<LookAt>
+				<longitude>130.7668053006481</longitude>
+				<latitude>32.78197736834201</latitude>
+				<altitude>15.87864951327984</altitude>
+				<heading>-1.357147039940396e-07</heading>
+				<tilt>0</tilt>
+				<range>986.896014848699</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.7668053006481,32.78197736834201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19. 予備校</name>
+			<description><![CDATA[<img src="http://livedoor.blogimg.jp/hirune8_11ne/imgs/f/5/f55d80d4.jpg"/><br>
+原口未帆が通った予備校。今はもう無いかもしれない。]]></description>
+			<LookAt>
+				<longitude>130.6911560861123</longitude>
+				<latitude>32.79117736918065</latitude>
+				<altitude>10.0128095356319</altitude>
+				<heading>0.0009810473524881351</heading>
+				<tilt>55.483569467406</tilt>
+				<range>121.7827145523301</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.6911889703508,32.79120223733592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20. おうちpart9</name>
+			<description><![CDATA[<img src="https://image.smocca.jp/filter/?width=720&height=720&quality=100&url=http://img01.suumo.com/front/gazo/fr/bukken/633/53839633/53839633_go.jpg"/><br>
+原口未帆、人生で9つ目のおうち。東京薬科大に通うと思って選んで借りた家だったので、南大沢キャンパスから少し遠かった。4年間住むつもりだったが、いろいろあって１年半で引っ越す。人生初の一人暮らしをした家なので、思い出はたくさんある。]]></description>
+			<LookAt>
+				<longitude>139.3861470227868</longitude>
+				<latitude>35.62850547852873</latitude>
+				<altitude>0</altitude>
+				<heading>21.06374338011309</heading>
+				<tilt>45.17445851325467</tilt>
+				<range>118.0463515151649</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.386024318009,35.62866324141675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22. おうちpart10</name>
+			<description><![CDATA[<img src="http://img10.suumo.com/front/gazo/fr/bukken/215/100062234215/100062234215_gw.jpg"/><br>
+原口未帆の記念すべき10軒目の家であり現在の家。窓から見える夜景が少し綺麗。バイクの駐輪スペースがあるかという点だけで選んだが、非常に気に入っている。]]></description>
+			<Camera>
+				<longitude>139.3751898224953</longitude>
+				<latitude>35.65706943004501</latitude>
+				<altitude>84.21235591913944</altitude>
+				<heading>14.84015312187766</heading>
+				<tilt>53.46906003642219</tilt>
+				<roll>1.836014688056963</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_firedept</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.375388134453,35.65844527901169,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
